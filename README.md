@@ -1,4 +1,4 @@
-# Cloud-Enabled Automatic Attendance System with Facial Recognition
+# Automatic Attendance System with Facial Recognition
 
 A full-stack application for automated student attendance tracking using facial recognition technology. This system consists of a FastAPI backend and a modern React frontend.
 
