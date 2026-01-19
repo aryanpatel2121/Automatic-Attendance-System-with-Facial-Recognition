@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+firebase-admin
+deepface
+opencv-python
+python-multipart
+numpy<2.0
+tf-keras
