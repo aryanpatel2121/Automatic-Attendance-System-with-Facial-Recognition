@@ -8,13 +8,12 @@ A full-stack application for automated student attendance tracking using facial 
 - **Student Management**: Register students with their photos.
 - **Real-time Logs**: View attendance logs in real-time.
 - **Admin Dashboard**: Access reports and manage the system.
-- **Cloud Integration**: Optional Firebase integration for storage and data persistence.
 
 ## 🛠️ Tech Stack
 
 ### Backend
 - **Framework**: FastAPI
-- **Database**: SQLite (Local), Firebase Firestore (Cloud - Optional/Hybrid)
+- **Database**: SQLite (Local)
 - **Computer Vision**: OpenCV, DeepFace (FaceNet model)
 - **ML/AI**: TensorFlow/Keras (via DeepFace)
 
@@ -52,11 +51,6 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 ```
-
-#### Configuration
-- **Firebase**:
-  - Place your Firebase service account key file named `serviceAccountKey.json` in the `backend/` directory.
-  - Update the bucket name in `backend/services/firebase.py` if you are using Firebase Storage.
 
 ### 3. Frontend Setup
 Navigate to the frontend directory and install dependencies.
